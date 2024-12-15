@@ -17,14 +17,18 @@ Solution for the [Task Tracker Project](https://roadmap.sh/projects/task-tracker
 
 ## Installation
 
-```go
+```shell
 go install
 ```
 
 ## Usage
 
 ```shell
-task-tracker <command> [options]
+go build
+```
+
+```shell
+./task-tracker <command> [options]
 ```
 
 ## Commands
@@ -32,19 +36,19 @@ task-tracker <command> [options]
 - add: Add a new task
 
 ```shell
-task-tracker add -n "Task name"
+./task-tracker add -n "Task name"
 ```
 
 - update: Update a task
 
 ```shell
-task-tracker update -i <id> -n "New task name"
+./task-tracker update -i <id> -n "New task name"
 ```
 
 - delete: Delete a task
 
 ```shell
-task-tracker delete -i <id>
+./task-tracker delete -i <id>
 ```
 
 - list: List all tasks
@@ -56,19 +60,19 @@ task-tracker delete -i <id>
 - start: Mark a task as in progress
 
 ```shell
-task-tracker start -i <id>
+./task-tracker start -i <id>
 ```
 
 - complete: Mark a task as completed
 
 ```shell
-task-tracker complete -i <id>
+./task-tracker complete -i <id>
 ```
 
 - stop: Mark a task as not started
 
 ```shell
-task-tracker stop -i <id>
+./task-tracker stop -i <id>
 ```
 
 - empty: Clear all tasks
