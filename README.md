@@ -2,6 +2,8 @@
 
 A simple command-line task management tool written in Go that helps you track your tasks with different states (completed, in progress, not started).
 
+Solution for the [Task Tracker Project](https://roadmap.sh/projects/task-tracker) from roadmap.sh.
+
 ## Features
 
 - Add new tasks
